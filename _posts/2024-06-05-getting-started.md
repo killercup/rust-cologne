@@ -12,6 +12,7 @@ talks:
     name: "Florian Zeitz"
     twitter: florob
     github: florob
+  slides: "http://babelmonkeys.de/~florob/talks/RC-2024-06-05-rust-intro.pdf"
 ---
 _(The meetup will likely be held in German but we'll switch to English if needed.)_
 
