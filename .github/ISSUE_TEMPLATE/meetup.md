@@ -1,48 +1,48 @@
 ---
 name: Meetup
 about: Organization of an upcoming Meetup
-title: "<Month> 20yy"
-labels: ''
+title: "This Month in Rust, `{month} {year}`"
+labels: 'meetup'
 assignees: ''
 
 ---
 
 # ToDo
 
-- [ ] Settle for a date and location: **Wednesday YYYY-MM-DD, 19:15 CET** at C4 (default: first Wednesday each month)
+- [ ] Settle for a date and location: **Wednesday `{YYYY-MM-DD}`, 19:15 CET** at C4 (default: first Wednesday each month)
 - [ ] Send "Save the Date" info (with link to this ticket)
-- [ ] Basic Agenda (default: Open Space)
-- [ ] Final invitation (deadline **??? T - 1 week**)
-  - [ ] [meetup]
-  - [ ] [website]
-  - [ ] [twitter]
+- [ ] Basic Agenda (default: "This Month in Rust")
+- [ ] Final invitation (deadline **T - 10 days**)
+  - [ ] [meetup](https://www.meetup.com/rustcologne/events/####)
+  - [ ] [website](https://rust.cologne)
   - [ ] [community calendar]
 
 # Invitation draft
 
-```markdown
-Title: CGN ###: Save The Date
+Title: This Month in Rust, `{month}`
 
-Dear Rustaceans,
+_(The meetup will likely be held in German but we'll switch to English if needed.)_
 
-our next **open space** style Meetup will be on **Wednesday YYYY-MM-DD, 19:15 CET**.
+Dear Rustacean,
 
-Imagine a bazaar, where you can suggest topics and spontaneously join any discussion you find interesting.
-It all depends on your interests. You can enjoy some drinks, meet nice people and discuss about Rust.
+our next Meetup will be on **Wednesday `{YYYY-MM-DD}`, 19:15 CEST**.
 
-**[You can register here](...)**.
+You're new to Rust, tried it out with some private projects or are already working professionally with it for years? You're in good company! Whether you want to speed up your python code, write a web service, need interop with your C++-codebase, cross-compile for a microcontroller, write an emulator, … we've got you covered!
 
-We are looking forward to seeing you. :-)
+We commonly open up with a brief summary of noteworthy changes in the Rust ecosystem. Be it updates to the language itself, public events, its impact on other projects and languages, …
+
+After that we often have volunteers talking about specific topics or personal projects, but in general the remaining time is about whatever _you_ want to talk about!
+
+Always wanted to know why Rust is harder to learn than other popular languages or why it lacks a certain feature? When is it appropriate to rewrite a project in Rust? Is the compiler really that slow and are the binaries really that big? Do all those safety guarantees have an impact on the performance? Fetch a drink and let's find it out.
+
+**[You can register here](https://www.meetup.com/rustcologne/events/####)**.
+
+See you soon!
 
 Yours,
 Florian and Kai
 - - -
-The meetup will likely be held in German, we will however reevaluate this at the beginning of the evening and may switch to English if needed.
-- - -
-COVID-19 measures: We have restricted the maximum number of participants to ensure social distancing is possible.
-Accordingly we need to know how many people will attend the meetup.
-Please make sure to register and, in case you are no longer able to attend, cancel your registration.
-Feel free to privately send us a message if you think that more safety measures are required.
-```
+If you have a topic you'd like to talk about, please [let us know in advance](https://github.com/Rustaceans/rust-cologne/issues/####). This way we can make sure there's a time-slot for you and maybe announce it officially. Thank you.
+
 # Rust News
 - [new rust release?](https://releases.rs)
